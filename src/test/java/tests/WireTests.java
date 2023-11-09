@@ -12,6 +12,7 @@ public class WireTests extends TestBase {
     @ParameterizedTest(name = "Positive auth")
     @Tag("emulator")
     @Tag("positive")
+    @Tag("browserstack")
     @DisplayName("LogIn")
     public void openAppTest(String email, String password) {
         Steps step = new Steps();
@@ -30,7 +31,7 @@ public class WireTests extends TestBase {
     @CsvFileSource(resources = "/wrong_credentials.csv")
     @ParameterizedTest(name = "Negative auth {0}")
     @Tag("emulator")
-    @Tag("negative")
+    @Tag("negative2")
     @DisplayName("LogIn. Wrong email or password")
     public void negativeLoginWithWrongEmailTest(String nameTests, String email, String password) {
         Steps step = new Steps();

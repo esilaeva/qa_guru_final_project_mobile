@@ -3,7 +3,7 @@ package config.browserstackconfig;
 import org.aeonbits.owner.Config;
 
 @Config.Sources({
-        "classpath:/properties/${deviceHost}.properties"
+        "classpath:properties/${deviceHost}.properties"
 })
 public interface BrowserstackConfig extends Config {
 
@@ -16,26 +16,26 @@ public interface BrowserstackConfig extends Config {
     String getDevice();
 
     @Key("os_version")
-    @DefaultValue("")
-    String getVersion();
+    @DefaultValue("12.0")
+    String getPlatformVersion();
 
     @Key("app")
-    @DefaultValue("bs://ru.hh.android")
+    @DefaultValue("bs://a43271109d15afee89307b02523f1e6bf6499e0d")
     String getApp();
 
     @Key("deviceHost")
-    @DefaultValue("emulation")
+    @DefaultValue("browserstack")
     String getDeviceHost();
 
     @Key("projectName")
-    @DefaultValue("First Java Project")
+    @DefaultValue("Wire Project")
     String getProject();
 
     @Key("build")
-    @DefaultValue("browserstack-build-2")
+    @DefaultValue("browserstack-build-1")
     String getBuild();
 
     @Key("testName")
-    @DefaultValue("android_test")
+    @DefaultValue("android_wire_tests")
     String getTestName();
 }

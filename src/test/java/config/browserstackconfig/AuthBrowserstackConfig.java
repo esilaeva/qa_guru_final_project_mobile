@@ -3,16 +3,16 @@ package config.browserstackconfig;
 import org.aeonbits.owner.Config;
 
 @Config.Sources({
-        "classpath:/properties/auth.properties"
+        "classpath:properties/auth.properties"
 })
 public interface AuthBrowserstackConfig extends Config {
 
     @Key("userName")
-    @DefaultValue("ilananull_TMCs07")
+    @DefaultValue("ilanaqa_QPZ6wX")
     String getUserName();
 
     @Key("accessKey")
-    @DefaultValue("y3sGJ2SGa4wB5615Xycy")
+    @DefaultValue("WWhqxuxVJhB7A72Rxdk7")
     String getAccessKey();
 
     @Key("remoteUrl")
