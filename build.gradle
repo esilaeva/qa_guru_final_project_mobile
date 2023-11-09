@@ -60,12 +60,12 @@ tasks.withType(Test) {
 
 task negative_test(type: Test) {
     useJUnitPlatform {
-        includeTags("negative2")
+        includeTags("negative")
     }
 }
 
-task browserstack_test(type: Test) {
+task positive_test(type: Test) {
     useJUnitPlatform {
-        includeTags("browserstack")
+        includeTags("positive")
     }
 }
