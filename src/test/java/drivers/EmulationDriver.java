@@ -21,7 +21,6 @@ import static org.apache.commons.io.FileUtils.copyInputStreamToFile;
 public class EmulationDriver implements WebDriverProvider {
 
     static EmulationDriverConfig config = ConfigFactory.create(EmulationDriverConfig.class, System.getProperties());
-    public WebDriver driver;
 
     public static URL getAppiumServerUrl() {
         try {
@@ -38,15 +37,6 @@ public class EmulationDriver implements WebDriverProvider {
         options.merge(capabilities);
 
         options
-//                .setAutomationName(ANDROID_UIAUTOMATOR2)
-//                .setPlatformName(ANDROID)
-//                .setPlatformVersion("11.0")
-//                .setDeviceName("Pix4")
-//                .setApp(getAppPath())
-//                .setAppPackage("org.telegram.messenger.web")
-//                .setAppActivity("org.telegram.ui.LaunchActivity");
-
-
                 .setAutomationName(ANDROID_UIAUTOMATOR2)
                 .setPlatformName(config.getPlatformName())
                 .setPlatformVersion(config.getPlatformVersion())
@@ -55,16 +45,7 @@ public class EmulationDriver implements WebDriverProvider {
                 .setAppPackage(config.getAppPackage())
                 .setAppActivity(config.getAppActivity());
 
-
-//        options.setCapability("platformName", "Android");
-//        options.setCapability("deviceName", "Pix4");
-//        options.setCapability("platformVersion", "11.0");
-//        options.setCapability("appPath", getAppPath());
-//        options.setCapability("AppPackage", config.getAppPackage());
-//        options.setCapability("AppActivity", config.getAppActivity());
-
-        driver = new AndroidDriver(getAppiumServerUrl(), options);
-        return driver;
+        return new AndroidDriver(getAppiumServerUrl(), options);
     }
 
     private String getAppPath() {
@@ -84,6 +65,4 @@ public class EmulationDriver implements WebDriverProvider {
         }
         return app.getAbsolutePath();
     }
-
-
 }
