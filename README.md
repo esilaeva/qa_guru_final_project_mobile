@@ -129,7 +129,7 @@
 
 <img width="100%" title="Allure TestOps" src="src/test/resources/screenshorts/010-testOps_testCase.png">
 
-### Интеграция с Browserstack
+### Интеграция с [Browserstack](https://www.browserstack.com/)
 
 Сервис [Browserstack](https://www.browserstack.com/):
 - позволяет прогонять автотесты на реальных устройствах,
