@@ -9,7 +9,7 @@
 > Просто самый безопасный мессенджер.  
 > Самые требовательные организации в мире полагаются на Wire с его постоянным шифрованием для чатов, голосовых и видеоконференций.
 
-### Содержание
+## [Содержание](#Содержание)
 [Технологии и инструменты](#Технологии-и-инструменты)  
 [Реализованные проверки](#Реализованные-проверки)  
 [Запуск тестов из терминала](#Запуск-тестов-из-терминала)  
@@ -74,10 +74,14 @@
 </a>
 </p>
 
+[Назад к содержанию](#Содержание)
+
 ### Реализованные проверки
 - Успешная/неуспешная авторизация пользователя
 - Удаление старых, уже не используемых устройств, из списка, подключенных к Wire
 - Создание группы для общения
+
+[Назад к содержанию](#Содержание)
 
 ### Запуск тестов из терминала
 
@@ -92,25 +96,35 @@
 
 `gradle clean test -DdeviceHost=browserstack`
 
+[Назад к содержанию](#Содержание)
+
 ### Сборка в [Jenkins](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_mobile/)
 Для запуска сборки необходимо перейти на страницу проекта [qa_guru_21_final_project_mobile](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_mobile/)
 в `Jenkins`, далее в раздел `Build with Parameters`, выбрать необходимые параметры и нажать
 кнопку `Build`.
 
-<p>
-<img width="100%" title="Jenkins" src="src/test/resources/screenshorts/006-jenkins.png">
+<p align="center">
+    <img width="100%" title="Jenkins" src="src/test/resources/screenshorts/006-jenkins.png">
 </p>
+
+[Назад к содержанию](#Содержание)
 
 ### Интеграция с [Allure Report](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_mobile/allure/)
 При удаленном запуске тестов в `Jenkins`, автоматически генерируется `Allure Report`
 
 ##### [Overview](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_mobile/allure/#)
 
-<img width="100%" title="Allure Report" src="src/test/resources/screenshorts/004-allureReport.png">
+<p align="center">
+    <img width="100%" title="Allure Report" src="src/test/resources/screenshorts/004-allureReport.png">
+</p>
 
 ##### [Test details](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_mobile/allure/#behaviors/7f547f5110b277a0267f688d919be626/eea69086d2f9ea02/)
 
-<img width="100%" title="Allure Report" src="src/test/resources/screenshorts/008-allureReport.png">
+<p align="center">
+    <img width="100%" title="Allure Report" src="src/test/resources/screenshorts/008-allureReport.png">
+</p>
+
+[Назад к содержанию](#Содержание)
 
 ### Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/3766/test-cases/27033?treeId=0)
 
@@ -123,11 +137,17 @@
 
 ##### [Allure TestOps Dashboard](https://allure.autotests.cloud/project/3766/dashboards)
 
-<img width="100%" title="Allure TestOps" src="src/test/resources/screenshorts/009-testOps_dashboards.png">
+<p align="center">
+    <img width="100%" title="Allure TestOps" src="src/test/resources/screenshorts/009-testOps_dashboards.png">
+</p>
 
 ##### [Ручные и автоматические тест-кейсы](https://allure.autotests.cloud/project/3766/test-cases/27034?treeId=0)
 
-<img width="100%" title="Allure TestOps" src="src/test/resources/screenshorts/010-testOps_testCase.png">
+<p align="center">
+    <img width="100%" title="Allure TestOps" src="src/test/resources/screenshorts/010-testOps_testCase.png">
+</p>
+
+[Назад к содержанию](#Содержание)
 
 ### Интеграция с [Browserstack](https://www.browserstack.com/)
 
@@ -137,25 +157,39 @@
 - после прогона можно увидеть продолжительность каждого теста, пометить прошел ли тест или упал,
 - также для каждого теста автоматически делается видео запись прогона.  
 
-<img width="100%" title="Allure TestOps" src="src/test/resources/screenshorts/012-browserstack.png">
+<p align="center">
+    <img width="100%" title="Allure TestOps" src="src/test/resources/screenshorts/012-browserstack.png">
+</p>
+
+[Назад к содержанию](#Содержание)
 
 ### Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-945)
 
-Интеграция `Allure TestOps` с `Jira`, позволяет отображать в [задаче](https://jira.autotests.cloud/browse/HOMEWORK-945), открытой в `Jira`, какие тест-кейсы были написаны в
-рамках задачи и результат их выполнения.
+Интеграция `Allure TestOps` с `Jira`, позволяет отображать в [задаче](https://jira.autotests.cloud/browse/HOMEWORK-945),
+созданной в `Jira`, какие тест-кейсы были написаны в рамках задачи и результат их выполнения.
 
-<img width="100%" title="Jira" src="src/test/resources/screenshorts/011-jira.png">
+<p align="center">
+    <img width="100%" title="Jira" src="src/test/resources/screenshorts/011-jira.png">
+</p>
+
+[Назад к содержанию](#Содержание)
 
 ### Уведомление в Telegram
 
 После завершения сборки, автоматически отправляется отчет о результатах выполнения тестов в специально созданный `Telegram канал`.
 
-<img width="40%" title="Jira" src="src/test/resources/screenshorts/005-telegram.png">
+<p align="center">
+    <img width="40%" title="Jira" src="src/test/resources/screenshorts/005-telegram.png">
+</p>
+
+[Назад к содержанию](#Содержание)
 
 ### Примеры видео выполнения тестов на Browserstack
 
 В отчетах Browserstack и Allure для каждого теста создается не только скриншот, но и видео его прохождения.
 
-<p>
-<img width="30%" title="Selenoid Video" src="src/test/resources/screenshorts/delete_device.gif">
+<p align="center">
+    <img width="30%" title="Selenoid Video" src="src/test/resources/screenshorts/delete_device.gif">
 </p>
+
+[Назад к содержанию](#Содержание)
