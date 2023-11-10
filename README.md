@@ -16,6 +16,7 @@
 [Сборка в Jenkins](#Сборка-в-Jenkins)   
 [Интеграция с Allure Report](#Интеграция-с-Allure-Report)  
 [Интеграция с Allure TestOps](#Интеграция-с-Allure-TestOps)  
+[Интеграция с Browserstack](#Интеграция-с-Browserstack)  
 [Интеграция с Jira](#Интеграция-с-Jira)  
 [Уведомление в Telegram](#Уведомление-в-Telegram)  
 [Примеры видео выполнения тестов на Browserstack](#Примеры-видео-выполнения-тестов-на-Browserstack)
@@ -33,43 +34,43 @@
   <img width="7%" title="Java" src="src/test/resources/icons/java-original.svg">
 </a>
 <a href="https://www.jetbrains.com/">
-  <img width="7%" title="IntelliJ IDEA" src="src/test/resources/icons/Idea.svg">
+  <img width="6%" title="IntelliJ IDEA" src="src/test/resources/icons/Idea.svg">
 </a>
 <a href="https://gradle.org/">
-  <img width="7%" title="Gradle" src="src/test/resources/icons/gradle-plain.svg">
+  <img width="6%" title="Gradle" src="src/test/resources/icons/gradle-plain.svg">
 </a>
 <a href="https://junit.org/junit5/">
-  <img width="7%" title="JUnit5" src="src/test/resources/icons/Junit5.svg">
+  <img width="6%" title="JUnit5" src="src/test/resources/icons/Junit5.svg">
 </a>
 <a href="https://github.com/">
-  <img width="7%" title="GitHub" src="src/test/resources/icons/github-mark-white.svg">
+  <img width="6%" title="GitHub" src="src/test/resources/icons/github-mark-white.svg">
 </a>
 <a href="https://selenide.org/">
-  <img width="7%" title="Selenide" src="src/test/resources/icons/Selenide.svg">
+  <img width="6%" title="Selenide" src="src/test/resources/icons/Selenide.svg">
 </a>
 <a href="https://developer.android.com/studio">
-  <img width="7%" title="Selenoid" src="src/test/resources/icons/android_studio.png">
+  <img width="6%" title="Selenoid" src="src/test/resources/icons/Android_Studio.png">
 </a>
 <a href="https://appium.io/">
-  <img width="7%" title="Selenoid" src="src/test/resources/icons/appium.svg">
+  <img width="6%" title="Selenoid" src="src/test/resources/icons/appium.svg">
 </a>
 <a href="https://www.browserstack.com/">
-  <img width="7%" title="Selenoid" src="src/test/resources/icons/browserstack.svg">
+  <img width="6%" title="Selenoid" src="src/test/resources/icons/Browserstack.svg">
 </a>
 <a href="https://qameta.io/allure-report/">
-  <img width="7%" title="Allure Report" src="src/test/resources/icons/Allure.svg">
+  <img width="6%" title="Allure Report" src="src/test/resources/icons/Allure.svg">
 </a>
 <a href="https://www.jenkins.io/">
-  <img width="7%" title="Jenkins" src="src/test/resources/icons/jenkins-original.svg">
+  <img width="6%" title="Jenkins" src="src/test/resources/icons/jenkins-original.svg">
 </a>
 <a href="https://telegram.org/">
-  <img width="7%" title="Telegram" src="src/test/resources/icons/Telegram.svg">
+  <img width="6%" title="Telegram" src="src/test/resources/icons/Telegram.svg">
 </a>
 <a href="https://qameta.io/">
-  <img width="7%" title="Allure TestOps" src="src/test/resources/icons/Allure_TO.svg">
+  <img width="6%" title="Allure TestOps" src="src/test/resources/icons/Allure_TO.svg">
 </a>
 <a href="https://www.atlassian.com/software/jira">
-  <img width="7%" title="Jira" src="src/test/resources/icons/Jira.svg">
+  <img width="6%" title="Jira" src="src/test/resources/icons/Jira.svg">
 </a>
 </p>
 
@@ -127,6 +128,16 @@
 ##### [Ручные и автоматические тест-кейсы](https://allure.autotests.cloud/project/3766/test-cases/27034?treeId=0)
 
 <img width="100%" title="Allure TestOps" src="src/test/resources/screenshorts/010-testOps_testCase.png">
+
+### Интеграция с Browserstack
+
+Сервис [Browserstack](https://www.browserstack.com/):
+- позволяет прогонять автотесты на реальных устройствах,
+- каждый новый build помещает в отдельную папку,
+- после прогона можно увидеть продолжительность каждого теста, пометить прошел ли тест или упал,
+- также для каждого теста автоматически делается видео запись прогона.  
+
+<img width="100%" title="Allure TestOps" src="src/test/resources/screenshorts/012-browserstack.png">
 
 ### Интеграция с Jira
 
