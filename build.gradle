@@ -69,3 +69,8 @@ task positive_test(type: Test) {
         includeTags("positive")
     }
 }
+task manual_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("manual")
+    }
+}

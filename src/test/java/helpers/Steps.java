@@ -4,8 +4,7 @@ import com.codeborne.selenide.SelenideElement;
 import drivers.EmulationDriver;
 import io.qameta.allure.Step;
 
-import static com.codeborne.selenide.Condition.appear;
-import static com.codeborne.selenide.Condition.disappear;
+import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.sleep;
 import static io.appium.java_client.AppiumBy.id;
