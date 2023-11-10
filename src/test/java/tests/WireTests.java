@@ -1,7 +1,7 @@
 package tests;
 
-import annotations.Manual;
 import helpers.Steps;
+import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
 import io.qameta.allure.Story;
@@ -11,7 +11,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
 @Owner("Elena")
-@Story("Testing")
+@Epic("Secure Messenger")
 public class WireTests extends TestBase {
 
     @CsvFileSource(resources = "/credentials.csv")
@@ -19,6 +19,7 @@ public class WireTests extends TestBase {
     @Tag("positive")
     @DisplayName("Success LogIn")
     @Feature("Login")
+    @Story("Positive Login")
     public void openAppTest(String email, String password) {
         Steps step = new Steps();
 
@@ -38,6 +39,7 @@ public class WireTests extends TestBase {
     @Tag("negative")
     @DisplayName("LogIn. Wrong email or password")
     @Feature("Login")
+    @Story("Negative Login")
     public void negativeLoginWithWrongEmailTest(String nameTests, String email, String password) {
         Steps step = new Steps();
 
@@ -55,6 +57,7 @@ public class WireTests extends TestBase {
     @Tag("positive")
     @DisplayName("Delete devices")
     @Feature("Account")
+    @Story("Delete devices")
     public void deleteDevices(String email, String password) {
         Steps step = new Steps();
 
@@ -77,7 +80,8 @@ public class WireTests extends TestBase {
     @CsvFileSource(resources = "/credentials.csv")
     @ParameterizedTest(name = "Create group")
     @Tag("positive")
-    @Feature("Chat")
+    @Feature("Account")
+    @Story("Chat")
     public void createGroup(String email, String password) {
         Steps step = new Steps();
 
