@@ -92,7 +92,7 @@
 
 `gradle clean test -DdeviceHost=browserstack`
 
-### Сборка в Jenkins
+### Сборка в [Jenkins](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_mobile/)
 Для запуска сборки необходимо перейти на страницу проекта [qa_guru_21_final_project_mobile](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_mobile/)
 в `Jenkins`, далее в раздел `Build with Parameters`, выбрать необходимые параметры и нажать
 кнопку `Build`.
@@ -101,8 +101,8 @@
 <img width="100%" title="Jenkins" src="src/test/resources/screenshorts/006-jenkins.png">
 </p>
 
-### Интеграция с Allure Report
-При удаленном запуске тестов в `Jenkins`, автоматически генерируется [Allure Report](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_mobile/allure/)
+### Интеграция с [Allure Report](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_mobile/allure/)
+При удаленном запуске тестов в `Jenkins`, автоматически генерируется `Allure Report`
 
 ##### [Overview](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_mobile/allure/#)
 
@@ -112,9 +112,9 @@
 
 <img width="100%" title="Allure Report" src="src/test/resources/screenshorts/008-allureReport.png">
 
-### Интеграция с Allure TestOps
+### Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/3766/test-cases/27033?treeId=0)
 
-В отчете [Allure TestOps](https://allure.autotests.cloud/project/3766/test-cases/27033?treeId=0) можно:
+В отчете `Allure TestOps` можно:
 
 - просматривать созданные тест-кейсы и чек-листы,
 - запускать ручные и автоматические тестовые прогоны,
@@ -131,7 +131,7 @@
 
 ### Интеграция с [Browserstack](https://www.browserstack.com/)
 
-Сервис [Browserstack](https://www.browserstack.com/):
+Сервис `Browserstack`:
 - позволяет прогонять автотесты на реальных устройствах,
 - каждый новый build помещает в отдельную папку,
 - после прогона можно увидеть продолжительность каждого теста, пометить прошел ли тест или упал,
@@ -139,7 +139,7 @@
 
 <img width="100%" title="Allure TestOps" src="src/test/resources/screenshorts/012-browserstack.png">
 
-### Интеграция с Jira
+### Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-945)
 
 Интеграция `Allure TestOps` с `Jira`, позволяет отображать в [задаче](https://jira.autotests.cloud/browse/HOMEWORK-945), открытой в `Jira`, какие тест-кейсы были написаны в
 рамках задачи и результат их выполнения.
