@@ -49,13 +49,13 @@
   <img width="6%" title="Selenide" src="src/test/resources/icons/Selenide.svg">
 </a>
 <a href="https://developer.android.com/studio">
-  <img width="6%" title="Selenoid" src="src/test/resources/icons/Android_Studio.png">
+  <img width="6%" title="Android Studio" src="src/test/resources/icons/Android_Studio.png">
 </a>
 <a href="https://appium.io/">
-  <img width="6%" title="Selenoid" src="src/test/resources/icons/appium.svg">
+  <img width="6%" title="Appium" src="src/test/resources/icons/appium.svg">
 </a>
 <a href="https://www.browserstack.com/">
-  <img width="6%" title="Selenoid" src="src/test/resources/icons/Browserstack.svg">
+  <img width="6%" title="Browserstack" src="src/test/resources/icons/Browserstack.svg">
 </a>
 <a href="https://qameta.io/allure-report/">
   <img width="6%" title="Allure Report" src="src/test/resources/icons/Allure.svg">
