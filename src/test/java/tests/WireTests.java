@@ -4,12 +4,14 @@ import annotations.Manual;
 import helpers.Steps;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
+import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
 @Owner("Elena")
+@Story("Testing")
 public class WireTests extends TestBase {
 
     @CsvFileSource(resources = "/credentials.csv")
@@ -32,7 +34,7 @@ public class WireTests extends TestBase {
     }
 
     @CsvFileSource(resources = "/wrong_credentials.csv")
-    @ParameterizedTest(name = "Negative login {0}")
+    @ParameterizedTest(name = "Negative login. {0}")
     @Tag("negative")
     @DisplayName("LogIn. Wrong email or password")
     @Feature("Login")

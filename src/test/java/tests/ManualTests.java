@@ -1,6 +1,7 @@
 package tests;
 
 import annotations.Manual;
+import io.qameta.allure.AllureId;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
@@ -15,7 +16,8 @@ import static io.qameta.allure.Allure.step;
 public class ManualTests {
 
     @Test
-    @Tags({@Tag("positive"), @Tag("manual")})
+    @AllureId("27045")
+    @Tag("manual")
     @DisplayName("Manual test. Positive login")
     @Feature("Authentication")
     public void manualSuccessfulLoginTest() {
@@ -29,7 +31,8 @@ public class ManualTests {
     }
 
     @Test
-    @Tags({@Tag("positive"), @Tag("manual")})
+    @AllureId("27049")
+    @Tag("manual")
     @DisplayName("Manual test. Positive logout")
     @Feature("Authentication")
     public void manualSuccessfulLogOutTest() {
@@ -53,7 +56,8 @@ public class ManualTests {
     }
 
     @Test
-    @Tags({@Tag("negative"), @Tag("manual")})
+    @AllureId("27046")
+    @Tag("manual")
     @DisplayName("Manual test. Negative login with wrong email")
     @Feature("Authentication")
     public void manualNegativeLoginTest() {
@@ -67,8 +71,9 @@ public class ManualTests {
     }
 
     @Test
-    @Tags({@Tag("positive"), @Tag("manual")})
-    @DisplayName("Manual test. Change color")
+    @AllureId("27047")
+    @Tag("manual")
+    @DisplayName("Manual test. Change design color")
     @Feature("Account")
     public void changeColorTest() {
         step("Log In", () -> {
@@ -90,7 +95,8 @@ public class ManualTests {
     }
 
     @Test
-    @Tags({@Tag("positive"), @Tag("manual")})
+    @AllureId("27048")
+    @Tag("manual")
     @DisplayName("Manual test. Change picture")
     @Feature("Account")
     public void changePictureTest() {
