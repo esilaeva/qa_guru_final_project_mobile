@@ -27,7 +27,7 @@
 Автотесты написаны на языке `Java` с использованием `JUnit 5`, `Selenide`. Сборщик проекта - `Gradle`. Для удаленного
 запуска реализована задача в `Jenkins` с формированием `Allure-отчета` и отправкой результатов в `Telegram канал` при
 помощи бота. Локальный запуск осуществляется в эмуляторе `Android Studio`. Удаленный запуск на реальных мобильных
-усройствах осуществляется в `Browserstack`. Для написания автотестов используется `Appium Server GUI`
+усройствах производится в `Browserstack`. Для написания автотестов используется `Appium Server GUI`
 и `Appium Inspector`. Так же реализована интеграция с `Allure TestOps` и `Jira`.
 
 <p>
@@ -54,6 +54,9 @@
     </a>
     <a href="https://appium.io/">
       <img width="6%" title="Appium" src="src/test/resources/icons/appium.svg">
+    </a>
+    <a href="https://github.com/appium/appium-inspector">
+      <img width="6%" title="Appium Inspector" src="src/test/resources/icons/appium_inspector.png">
     </a>
     <a href="https://www.browserstack.com/">
       <img width="6%" title="Browserstack" src="src/test/resources/icons/Browserstack.svg">
