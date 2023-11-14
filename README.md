@@ -56,6 +56,9 @@
     <a href="https://github.com/appium/appium-inspector">
       <img width="6%" title="Appium Inspector" src="src/test/resources/icons/appium_inspector.png" alt="Appium Inspector">
     </a>
+    <a href="https://github.com/appium/appium-inspector">
+      <img width="6%" title="Appium Inspector" src="src/test/resources/icons/appium_inspector.png">
+    </a>
     <a href="https://www.browserstack.com/">
       <img width="6%" title="Browserstack" src="src/test/resources/icons/Browserstack.svg" alt="Browserstack">
     </a>
