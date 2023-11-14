@@ -30,52 +30,52 @@
 
 <p align="center">
     <a href="https://www.java.com/">
-      <img width="6%" title="Java" src="src/test/resources/icons/java-original.svg" alt="java">
+      <img width="5%" title="Java" src="src/test/resources/icons/java-original.svg" alt="java">
     </a>
     <a href="https://www.jetbrains.com/">
-      <img width="6%" title="IntelliJ IDEA" src="src/test/resources/icons/Idea.svg" alt="IntelliJ IDEA">
+      <img width="5%" title="IntelliJ IDEA" src="src/test/resources/icons/Idea.svg" alt="IntelliJ IDEA">
     </a>
     <a href="https://gradle.org/">
-      <img width="6%" title="Gradle" src="src/test/resources/icons/gradle-plain.svg" alt="Gradle">
+      <img width="5%" title="Gradle" src="src/test/resources/icons/gradle-plain.svg" alt="Gradle">
     </a>
     <a href="https://junit.org/junit5/">
-      <img width="6%" title="JUnit5" src="src/test/resources/icons/Junit5.svg" alt="JUnit5">
+      <img width="5%" title="JUnit5" src="src/test/resources/icons/Junit5.svg" alt="JUnit5">
     </a>
     <a href="https://github.com/">
-      <img width="6%" title="GitHub" src="src/test/resources/icons/github-mark-white.svg" alt="GitHub">
+      <img width="5%" title="GitHub" src="src/test/resources/icons/github-mark-white.svg" alt="GitHub">
     </a>
     <a href="https://selenide.org/">
-      <img width="6%" title="Selenide" src="src/test/resources/icons/Selenide.svg" alt="Selenide">
+      <img width="5%" title="Selenide" src="src/test/resources/icons/Selenide.svg" alt="Selenide">
     </a>
     <a href="https://developer.android.com/studio">
-      <img width="6%" title="Android Studio" src="src/test/resources/icons/Android_Studio.png" alt="Android Studio">
+      <img width="5%" title="Android Studio" src="src/test/resources/icons/Android_Studio.png" alt="Android Studio">
     </a>
     <a href="https://appium.io/">
-      <img width="6%" title="Appium" src="src/test/resources/icons/appium.svg" alt="Appium">
+      <img width="5%" title="Appium" src="src/test/resources/icons/appium.svg" alt="Appium">
     </a>
     <a href="https://github.com/appium/appium-inspector">
-      <img width="6%" title="Appium Inspector" src="src/test/resources/icons/appium_inspector.png" alt="Appium Inspector">
+      <img width="5%" title="Appium Inspector" src="src/test/resources/icons/appium_inspector.png" alt="Appium Inspector">
     </a>
     <a href="https://github.com/appium/appium-inspector">
-      <img width="6%" title="Appium Inspector" src="src/test/resources/icons/appium_inspector.png">
+      <img width="5%" title="Appium Inspector" src="src/test/resources/icons/appium_inspector.png">
     </a>
     <a href="https://www.browserstack.com/">
-      <img width="6%" title="Browserstack" src="src/test/resources/icons/Browserstack.svg" alt="Browserstack">
+      <img width="5%" title="Browserstack" src="src/test/resources/icons/Browserstack.svg" alt="Browserstack">
     </a>
     <a href="https://qameta.io/allure-report/">
-      <img width="6%" title="Allure Report" src="src/test/resources/icons/Allure.svg" alt="Allure Report">
+      <img width="5%" title="Allure Report" src="src/test/resources/icons/Allure.svg" alt="Allure Report">
     </a>
     <a href="https://www.jenkins.io/">
-      <img width="6%" title="Jenkins" src="src/test/resources/icons/jenkins-original.svg" alt="Jenkins">
+      <img width="5%" title="Jenkins" src="src/test/resources/icons/jenkins-original.svg" alt="Jenkins">
     </a>
     <a href="https://telegram.org/">
-      <img width="6%" title="Telegram" src="src/test/resources/icons/Telegram.svg" alt="Telegram">
+      <img width="5%" title="Telegram" src="src/test/resources/icons/Telegram.svg" alt="Telegram">
     </a>
     <a href="https://qameta.io/">
-      <img width="6%" title="Allure TestOps" src="src/test/resources/icons/Allure_TO.svg" alt="Allure TestOps">
+      <img width="5%" title="Allure TestOps" src="src/test/resources/icons/Allure_TO.svg" alt="Allure TestOps">
     </a>
     <a href="https://www.atlassian.com/software/jira">
-      <img width="6%" title="Jira" src="src/test/resources/icons/Jira.svg" alt="Jira">
+      <img width="5%" title="Jira" src="src/test/resources/icons/Jira.svg" alt="Jira">
     </a>
 </p>
 
